@@ -1,0 +1,184 @@
+html, body {
+  font-family: Open+Sans;
+  margin: 0;
+  width: 100%;
+  height: 100%;
+  background: hsl(0,0%,95%) url('images/background.svg') top left no-repeat;
+}
+
+h1 {
+  font-size: 48px;
+  font-family: 'Open Sans Condensed', sans-serif;
+  padding-top: 5px;
+}
+
+h2 {
+  font-size: 24px;
+  font-family: 'Open Sans Condensed', sans-serif;
+  font-style: italic;
+  padding-top: 15px;
+}
+
+h5 {
+  font-size: 15px;
+  font-family: 'Open Sans Condensed', sans-serif;
+  font-style: italic;
+  padding-bottom: 20px;
+}
+
+h6 {
+  font-size: 12px;
+  font-family: 'Open Sans Condensed', sans-serif;
+  margin-top:-25px;
+  padding-bottom: 20px;
+}
+
+a {
+	text-decoration: none;
+	color: hsl(0,0%,0%);
+}
+
+header img {
+	width: 150px;
+	float: left;
+}
+
+a:hover {
+	text-decoration: underline;
+	color: hsl(0,0%,33%);
+}
+
+img {
+  padding-right:20px;
+}
+
+header {
+	width: 800px;
+	margin: 40px auto 20px auto;
+	border-radius: 10px;
+	background: hsl(0,0%,100%);
+	padding: 12px 20px 1px 20px;
+}
+
+main {
+	display: none;
+	width: 800px;
+	background: hsl(0,0%,100%);
+	margin: 0 auto 20px auto;
+	padding: 1px 20px 5px 20px;
+	border-radius: 10px;
+}
+
+p {
+  font-size: 18px;
+  font-family: 'Open Sans Condensed', sans-serif;
+  border-bottom: thin hsl(0,0%,0%);
+  border-bottom-style: dotted;
+}
+
+li {
+  font-size: 14px;
+  font-family: 'Open Sans Condensed', sans-serif;
+}
+
+ul {
+    list-style-image: url('images/bullet.svg');
+}
+
+input [type=text] {
+	display: block;
+	margin: 10px 0px 10px 0px;
+	width: 200px;
+}
+
+textarea {
+	display: block;
+	margin: 10px 0px 30px 0px;
+	width: 400px;
+	height: 200px;
+}
+
+label {
+	font-size: 12px;
+  	font-family: 'Open Sans Condensed', sans-serif;
+  	margin: 30px 0px 5px 0px;
+ 	width: 200px;
+  }
+  
+.buttons {
+  	width: 800px;
+	background: hsl(0,0%,100%);
+	margin: 0 auto 20px auto;
+	padding: 1px 20px 5px 20px;
+	border-radius: 10px;
+  }
+
+.contact {
+	display: none;
+	width: 800px;
+	background: hsl(0,0%,100%);
+	margin: 0 auto 20px auto;
+	padding: 1px 20px 5px 20px;
+	border-radius: 10px;
+}
+
+nav {
+	text-align: center;
+	padding: 5px;
+}
+
+nav ul {
+	margin: 0 0 17px 0;
+}
+
+nav li {
+	display: inline;
+	margin: -20px 50px 0 0;
+}
+
+.homebutton, .resumebutton, .contactbutton {
+	content: "";
+	position: absolute;
+	background: url('images/resumeicons.png') no-repeat top left;
+	background-size: 120px;
+	height: 40px;
+	width: 40px;
+	margin-right: 10px;
+	text-indent: -9999px;
+}
+
+.homebutton {
+	background-position: 0px -40px;
+}
+
+.homebutton:focus {
+	background-position: 0px -80px;
+}
+
+.homebutton:hover {
+	background-position: 0px 0px;
+}
+
+.resumebutton {
+	background-position: -40px -40px;
+}
+
+.resumebutton:focus {
+	background-position: -40px -80px;
+}
+
+.resumebutton:hover {
+	background-position: -40px 0px;
+}
+
+.contactbutton {
+	background-position: -80px -40px;
+}
+
+.contactbutton:focus {
+	background-position: -80px -80px;
+}
+
+.contactbutton:hover {
+	background-position: -80px 0px;
+}
